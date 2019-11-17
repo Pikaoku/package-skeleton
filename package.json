@@ -1,6 +1,7 @@
 {
+	"name": "@pikapi/firestore",
 	"version": "0.0.1",
-	"description": "",
+	"description": "A simple skeleton package for new npm modules with Typescript and Jest tests.",
 	"main": "lib",
 	"types": "lib",
 	"typings": "lib",
@@ -30,5 +31,18 @@
 	},
 	"files": [
 		"lib/**/*"
-	]
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Pikaoku/pikapi-firestore.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Pikaoku/pikapi-firestore/issues"
+	},
+	"homepage": "https://github.com/Pikaoku/pikapi-firestore#readme",
+	"dependencies": {
+		"firebase": "^7.4.0",
+		"pikapi": "^2.3.1",
+		"rxfire": "^3.9.1"
+	}
 }
