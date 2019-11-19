@@ -1,4 +1,4 @@
-import { CrudEndpoint, Endpoint, EndpointParams, splat } from 'rogare'
+import { CrudEndpoint, Endpoint, EndpointParams } from 'pikapi/lib/index'
 import { collectionData } from 'rxfire/firestore'
 import { getDocsData, toDocDataWith, toDocRefId } from './helpers'
 
