@@ -1,6 +1,6 @@
 {
-	"name": "@rogare/firestore",
-	"version": "0.0.2",
+	"name": "@pikapi/firestore",
+	"version": "0.0.1",
 	"description": "A simple skeleton package for new npm modules with Typescript and Jest tests.",
 	"main": "lib",
 	"types": "lib",
@@ -34,15 +34,15 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Pikaoku/rogare-firestore.git"
+		"url": "git+https://github.com/Pikaoku/pikapi-firestore.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Pikaoku/rogare-firestore/issues"
+		"url": "https://github.com/Pikaoku/pikapi-firestore/issues"
 	},
-	"homepage": "https://github.com/Pikaoku/rogare-firestore#readme",
+	"homepage": "https://github.com/Pikaoku/pikapi-firestore#readme",
 	"dependencies": {
 		"firebase": "^7.4.0",
-		"rogare": "^2.3.3",
+		"pikapi": "^2.3.1",
 		"rxfire": "^3.9.1"
 	}
 }
